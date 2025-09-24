@@ -15,8 +15,7 @@ app.use(professoresRouter)
 
 
 
-const professoresRouter = require('./routes/professores')
-app.use(professoresRouter)
+
 
 app.listen(3000, () => {
     console.log("Aplicação rodando em http://localhost:3000")
