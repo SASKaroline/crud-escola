@@ -6,11 +6,15 @@ app.use(cors())
 app.use(express.json())
 
 
-const AlunosRouter = require('./routes/alunos')
-app.use(AlunosRouter)
 
 
+
+
+
+
+const professoresRouter = require('./routes/professores')
+app.use(professoresRouter)
 
 app.listen(3000, () => {
-console.log('Server is running on http://localhost:3000')
-})
+    console.log("Aplicação rodando em http://localhost:3000")
+    })
