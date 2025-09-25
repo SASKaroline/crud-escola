@@ -11,13 +11,6 @@ app.use(express.json())
 
 
 
-
-
-
-
-
-
-
 const professoresRouter = require('./routes/professores')
 app.use(professoresRouter)
 
