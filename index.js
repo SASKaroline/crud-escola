@@ -8,7 +8,7 @@ app.use(express.json())
 
 const AlunosRouter = require('./routes/alunos')
 app.use(AlunosRouter)
-
+// 
 // TODO: Membro 2 - Importar e mapear rota de professores
 
 app.listen(3000, () => {
