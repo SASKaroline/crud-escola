@@ -6,8 +6,8 @@ app.use(cors())
 app.use(express.json())
 
 
-
-
+const AlunosRouter = require('./routes/alunos')
+app.use(AlunosRouter)
 
 
 
